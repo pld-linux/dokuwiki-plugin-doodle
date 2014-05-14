@@ -4,7 +4,7 @@
 Summary:	DokuWiki doodle plugin: Easy scheduling
 Name:		dokuwiki-plugin-%{plugin}
 Version:	20110101
-Release:	6
+Release:	7
 License:	GPL v2
 Group:		Applications/WWW
 Source0:	http://public.doogie.de/projects/dokuwiki/doodle-latest.tar.gz
@@ -15,8 +15,8 @@ BuildRequires:	rpmbuild(macros) >= 1.520
 BuildRequires:	unzip
 Requires:	dokuwiki >= 20061106
 Requires:	php(core) >= %{php_min_version}
+Requires:	php(date)
 Requires:	php(pcre)
-Requires:	php-date
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
