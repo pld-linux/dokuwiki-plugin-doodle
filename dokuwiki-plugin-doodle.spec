@@ -1,6 +1,5 @@
 %define		plugin		doodle
 %define		php_min_version 5.0.0
-%include	/usr/lib/rpm/macros.php
 Summary:	DokuWiki doodle plugin: Easy scheduling
 Name:		dokuwiki-plugin-%{plugin}
 Version:	20110101
